@@ -1,0 +1,2 @@
+# Reference environment used by the server; install a platform-appropriate build.
+torch==2.0.1

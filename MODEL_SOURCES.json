@@ -1,0 +1,22 @@
+{
+  "models/cifar_teacher.py": {
+    "source": "models/resnet_SE.py",
+    "source_sha256": "b7687228c4ebd8beee62c045ca4e87f8dcfc50b0f383f24be99ac5f97488cd9a",
+    "export_sha256": "b3e7316528a943fd05226515616fa004e1cfa939d7700be508682451c664a379"
+  },
+  "models/cifar_student.py": {
+    "source": "models/resnet_HDFG.py",
+    "source_sha256": "e928f354d3256fcd455b2b7f7ab28f681ed76fd232f37518fdfb3979b8f5b8b2",
+    "export_sha256": "8f0ba24672c7888c8988db2f61b81fc9d5c94968c320cf1188d52bfb8f25d7ef"
+  },
+  "models/face_teacher.py": {
+    "source": "models/IResNet_SE.py",
+    "source_sha256": "c82ab21a6db7a948b3b2924a4f997ab7bed31aa2c546f1d7854081b1b5e7a31e",
+    "export_sha256": "766216fbd3d80f72806df55b67fabda57d5182742a71595902e7a0dee37f031e"
+  },
+  "models/face_student.py": {
+    "source": "models/IResNet_HDFG.py",
+    "source_sha256": "e6b5663e7b050173013a89cc1745590fb9188c7ce5c885f3ddd9145a6577cda3",
+    "export_sha256": "963bc76a488e391b0b2dec44cfe4e8016c475892fbb3e8b7bc118885a3fc9da3"
+  }
+}
