@@ -6,7 +6,7 @@ This repository provides the core method reference code for “Low-Resolution Fa
 
 HEFDD transfers knowledge from a high-resolution teacher to a low-resolution student through hierarchical auxiliary supervision. The Efficient Attention Feature Expansion (EAFE) module combines depthwise convolution, feature concatenation, SE channel attention, and channel compression. Decoupled knowledge distillation between auxiliary classifiers transfers semantic information across multiple stages.
 
-This repository includes teacher networks, complete student networks, and the core distillation loss. Pretrained weights and complete training and evaluation pipelines are not included.
+This repository includes teacher networks, complete student networks, and the core distillation loss. 
 
 ## Environment
 
@@ -34,7 +34,7 @@ The manuscript includes experiments on the following datasets:
 | TinyFace | Real-world low-resolution face identification |
 | CIFAR-100 | Image classification and ablation studies |
 
-This repository does not redistribute these datasets. Please obtain data from their official sources and comply with the respective licenses and terms of use.
+This repository does not redistribute these datasets, Please obtain data from their official sources.
 
 ## Repository Structure
 
@@ -53,8 +53,6 @@ HEFDD/
 ├── requirements.txt
 └── README.md
 ```
-
-The face models use IResNet implementations, while the CIFAR models use CIFAR ResNet implementations. EAFE remains in the student inference path; auxiliary classifiers provide training-time supervision.
 
 ## Model Imports
 
