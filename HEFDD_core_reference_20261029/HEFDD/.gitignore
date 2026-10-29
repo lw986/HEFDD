@@ -1,9 +1,0 @@
-__pycache__/
-*.pyc
-*.pth
-*.pt
-*.onnx
-*.pth.tar
-.env
-checkpoints/
-data/
